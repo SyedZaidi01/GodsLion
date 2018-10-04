@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ali_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_resized"
+    tools:context=".Imams_All.Imam_Ali.ImamAli">
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/imam_ali_shrine" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/ali_hadith"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:background="#FFFFFFFF"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sayings"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/ali_history"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:background="#FFFFFFFF"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="History"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
+
+

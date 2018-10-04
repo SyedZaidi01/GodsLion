@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nasapp.godslion">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/lion"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main.SplashScreenFirst">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main.HomeActivity" />
+        <activity
+            android:name=".Options_java.TwelveImams"
+            android:label="@string/title_activity_twelve_imams"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Imams_All.Imam_Ali.ImamAli"
+            android:label="@string/title_activity_imam_ali"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Options_java.ProphetMuhammad.ProphetMuhammad"
+            android:label="@string/title_activity_prophet_muhammad"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Options_java.Fatima"
+            android:label="@string/title_activity_fatima"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Options_java.Sayings.Sayings"
+            android:label="@string/title_activity_sayings"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Options_java.Settings" />
+        <activity
+            android:name=".Main.TransitionSplash"
+            android:label="@string/title_activity_transition_splash"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Imams_All.Imam_Ali.Sayings_Ali" />
+        <activity android:name=".Imams_All.Imam_Ali.History_Ali" />
+        <activity android:name=".Imams_All.Imam_Ali_Naqi.Imam_Ali_Naqi" />
+        <activity android:name=".Imams_All.Imam_Ali_Naqi.Sayings_Ali_Naqi" />
+        <activity android:name=".Imams_All.Imam_Ali_Naqi.History_Ali_Naqi" />
+        <activity android:name=".Imams_All.Imam_Ali_Raza.Imam_Ali_Raza" />
+        <activity android:name=".Imams_All.Imam_Ali_Raza.History_Ali_Raza" />
+        <activity android:name=".Imams_All.Imam_Ali_Raza.Sayings_Ali_Raza" />
+        <activity android:name=".Imams_All.Imam_Ali_Taqi.Imam_Ali_Taqi" />
+        <activity android:name=".Imams_All.Imam_Ali_Taqi.History_Ali_Taqi" />
+        <activity android:name=".Imams_All.Imam_Ali_Taqi.Sayings_Ali_Taqi" />
+        <activity android:name=".Imams_All.Imam_Baqir.Imam_Baqir" />
+        <activity android:name=".Imams_All.Imam_Baqir.History_Baqir" />
+        <activity android:name=".Imams_All.Imam_Baqir.Sayings_Baqir" />
+        <activity android:name=".Imams_All.Imam_Hasan_askari.Imam_Hasan_Askari" />
+        <activity android:name=".Imams_All.Imam_Hasan_askari.Sayings_Hasan_Askari" />
+        <activity android:name=".Imams_All.Imam_Hasan_askari.History_Hasan_Askari" />
+        <activity android:name=".Imams_All.Imam_Hassan.Imam_Hassan" />
+        <activity android:name=".Imams_All.Imam_Hassan.Sayings_Hassan" />
+        <activity android:name=".Imams_All.Imam_Hassan.History_Hassan" />
+        <activity android:name=".Imams_All.Imam_Hussain.Imam_Hussain" />
+        <activity android:name=".Imams_All.Imam_Hussain.Sayings_Hussain" />
+        <activity android:name=".Imams_All.Imam_Hussain.History_Hussain" />
+        <activity android:name=".Imams_All.Imam_Jafar_Sadiq.Imam_Jafar_Sadiq" />
+        <activity android:name=".Imams_All.Imam_Jafar_Sadiq.Sayings_Jafar_Saqid" />
+        <activity android:name=".Imams_All.Imam_Jafar_Sadiq.History_Jafar_Sadiq" />
+        <activity android:name=".Imams_All.Imam_Mahdi.Imam_Mahdi" />
+        <activity android:name=".Imams_All.Imam_Mahdi.History_Mahdi" />
+        <activity android:name=".Imams_All.Imam_Mahdi.Sayings_Mahdi" />
+        <activity android:name=".Imams_All.Imam_Musa.Imam_Musa" />
+        <activity android:name=".Imams_All.Imam_Musa.Sayings_Musa" />
+        <activity android:name=".Imams_All.Imam_Musa.History_Musa" />
+        <activity android:name=".Imams_All.Imam_Zayn.Imam_Zayn" />
+        <activity android:name=".Imams_All.Imam_Zayn.Sayings_Zayn" />
+        <activity android:name=".Imams_All.Imam_Zayn.History_Zayn" />
+        <activity android:name=".Options_java.Sayings.Duas_Activity" />
+        <activity android:name=".Options_java.ProphetMuhammad.History_Muhammad" />
+        <activity android:name=".Options_java.ProphetMuhammad.Sayings_Muhammad"></activity>
+    </application>
+
+</manifest>

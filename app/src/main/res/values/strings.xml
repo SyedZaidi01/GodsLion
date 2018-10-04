@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">God\'s Lion</string>
+    <string name="title_activity_twelve_imams">TwelveImams</string>
+    <string name="title_activity_imam_ali">ImamAli</string>
+    <string name="title_activity_prophet_muhammad">ProphetMuhammad</string>
+    <string name="title_activity_fatima">Fatima</string>
+    <string name="title_activity_sayings">Sayings</string>
+    <string name="title_activity_transition_splash">TransitionSplash</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
